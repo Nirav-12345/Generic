@@ -1,18 +1,12 @@
 ﻿using System;
-
-namespace GenericFloatMx;
+namespace GenericString;
 
 class Program
 {
-    public static void Main(String[] args)
+    public static void Main(string[] args)
     {
-        Float<double> q = new Float<double>(2.2,2.3,4.5);
-
-        q.Max(1.6, 2.3, 4.6);
-
-
-
-
+        StringMax q = new StringMax();
+        q.StrMax("Aoo", "Bann", "SSS");
+        q.StrMax("111", "222", "333");
     }
 }
-
