@@ -1,18 +1,19 @@
 ﻿using System;
 
-namespace GenericStrFloMax;
+namespace RefactGener3_Vars;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
 
-        OneGener n = new OneGener();
 
-        n.Max(1, 2, 3,"1","2","3");
 
         
 
+
+        Generic<int> q = new Generic<int>(2,3,4);
+       
         
     }
 }
