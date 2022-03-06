@@ -1,12 +1,18 @@
 ﻿using System;
-namespace GenericString;
+
+namespace GenericStrFloMax;
 
 class Program
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        StringMax q = new StringMax();
-        q.StrMax("Aoo", "Bann", "SSS");
-        q.StrMax("111", "222", "333");
+
+        OneGener n = new OneGener();
+
+        n.Max(1, 2, 3,"1","2","3");
+
+        
+
+        
     }
 }
