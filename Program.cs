@@ -1,17 +1,18 @@
 ﻿using System;
 
-namespace GenericFindMax;
+namespace GenericFloatMx;
 
 class Program
 {
     public static void Main(String[] args)
     {
-        FindMax<int> q = new FindMax<int>(2,3,4);
+        Float<double> q = new Float<double>(2.2,2.3,4.5);
 
-        q.ToPrint(22, 23, 4);
+        q.Max(1.6, 2.3, 4.6);
 
-        
+
 
 
     }
 }
+
